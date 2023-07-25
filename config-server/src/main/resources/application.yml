@@ -10,7 +10,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/NikReDMooN/euruka-config
+          uri: https://github.com/DanilBespalov/euruka-config
           searchPaths: "ms-config-properties/{application}/{profile}"
           clone-on-start: true
           default-label: main

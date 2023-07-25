@@ -11,5 +11,5 @@ spring:
   application:
     name: eureka-client-b
   config:
-    import: "optional:configserver:${SPRING_CLOUD_CONFIG_URI:http://localhost:8888}"
+    import: "optional:config-server:${SPRING_CLOUD_CONFIG_URI:http://localhost:8888}"
 
